@@ -10,15 +10,21 @@ export const Container = styled.div`
     height: 100%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 `;
 
 export const ContentLeft = styled.div`
-    width: 61.8%;
+    width: 75%;
     height: 100%;
 `;
 
 export const ContentRight = styled.div`
-    width: 38.2%;
+    width: 25%;
+    height: 100%;
+`;
+
+export const ContentCenter = styled.div`
+    width: 100%;
     height: 100%;
 `;
 
@@ -45,4 +51,6 @@ export const Content = styled.div`
 
 export const Paragraph = styled.p`
     font-size: 24px;
+    text-indent: 2em;
+    margin-bottom: 1.5em;
 `;

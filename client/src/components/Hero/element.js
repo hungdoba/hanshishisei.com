@@ -120,3 +120,11 @@ export const BottomMenu = styled.div`
         backgroundColor ? backgroundColor : "white"};
     color: ${({ color }) => color || "blue"};
 `;
+
+export const ChildContent = styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+`;

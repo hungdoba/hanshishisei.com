@@ -28,7 +28,7 @@ const Hero = () => {
                                 spy={true}
                                 exact="true"
                             >
-                                絆支至誠について
+                                絆支至誠塾について
                             </MenuLink>
                         </Menu>
                         <Menu>
@@ -51,7 +51,7 @@ const Hero = () => {
                                 spy={true}
                                 exact="true"
                             >
-                                サービス
+                                メニュー
                             </MenuLink>
                         </Menu>
                         <Menu>
@@ -68,9 +68,10 @@ const Hero = () => {
                     </Navbar>
                 </NavbarBackground>
                 <Content>
-                    <Title>絆支至誠</Title>
+                    <Text>はんし・しせいじゅく</Text>
+                    <Title>絆支・至誠塾</Title>
+                    <Text> 夢の続き </Text>
                     <Text> Activity Space The continuation of the dream </Text>
-                    <Text> 日本語が入れたい。 </Text>
                 </Content>
                 <BottomNavbar>
                     <BottomMenu>電話で連絡</BottomMenu>
