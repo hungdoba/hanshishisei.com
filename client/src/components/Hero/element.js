@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import forestLargeBlur from "../Images/photo02.jpg";
 import whiteBackground from "../Images/photo01.png";
+import whiteBackgrounds from "../Images/photo01s.png";
 import { Link } from "react-scroll";
 
 export const Background = styled.div`
@@ -38,6 +39,11 @@ export const Container = styled.div`
     border-radius: 1vw;
     background-size: cover;
     background-image: url(${(props) => props.image});
+
+    @media screen and (max-width: 767px) {
+        width: 90vw;
+        height: 95vh;
+    }
 `;
 
 export const Img = styled.img`
@@ -54,6 +60,10 @@ export const NavbarBackground = styled.div`
     background-image: url(${whiteBackground});
     background-size: 100%;
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 676px) {
+        background-image: url(${whiteBackgrounds});
+    }
 `;
 
 export const Navbar = styled.div`
@@ -62,6 +72,10 @@ export const Navbar = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+
+    @media screen and (max-width: 676px) {
+        height: 20vh;
+    }
 `;
 
 export const Menu = styled.div`
@@ -69,10 +83,18 @@ export const Menu = styled.div`
     height: 50%;
     font-weight: bold;
     text-align: center;
+
+    @media screen and (max-width: 676px) {
+        width: 10vw;
+        height: 90%;
+        color: white;
+    }
 `;
 
 export const MenuLink = styled(Link)`
     text-decoration: none;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
     &:hover {
         cursor: pointer;
         color: orange;
@@ -83,6 +105,10 @@ export const Content = styled.div`
     width: 30%;
     color: white;
     margin-left: 10%;
+
+    @media screen and (max-width: 767px) {
+        width: 80%;
+    }
 `;
 
 export const Title = styled.div`
