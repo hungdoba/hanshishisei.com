@@ -89,9 +89,7 @@ const AboutUs = () => {
                         <Image src={childImage} alt="child" />
                     </ContentRight>
                     <Title>
-                        <h2>
-                            　◉【夢の続き】（The continuation of the dream）
-                        </h2>
+                        　◉【夢の続き】(The continuation of the dream)
                     </Title>
                     <ContentCenter>
                         <Content>
@@ -100,9 +98,7 @@ const AboutUs = () => {
                             </Paragraph>
                         </Content>
                     </ContentCenter>
-                    <Title>
-                        <h2>　 ◉【シンボルツリー】（Symbol Tree）</h2>
-                    </Title>
+                    <Title>◉【シンボルツリー】(Symbol Tree)</Title>
                     <ContentLeft>
                         <Content>
                             <Paragraph>
@@ -113,9 +109,7 @@ const AboutUs = () => {
                     <ContentRight>
                         <Image src={treeImage} alt="tree" />
                     </ContentRight>
-                    <Title>
-                        <h2>　 ◉【メッセージボード】（Message Board）</h2>
-                    </Title>
+                    <Title>◉【メッセージボード】(Message Board)</Title>
                     <ContentLeft>
                         <Content>
                             <Paragraph>

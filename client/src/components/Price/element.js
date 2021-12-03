@@ -11,6 +11,10 @@ export const Container = styled.div`
     margin: auto;
     display: flex;
     align-items: stretch;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
 `;
 
 export const ContentLeft = styled.div`
@@ -18,10 +22,18 @@ export const ContentLeft = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
 `;
 
 export const ContentRight = styled.div`
     width: 61.8%;
+
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
 `;
 
 export const Image = styled.img`

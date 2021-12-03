@@ -50,13 +50,14 @@ export const Image = styled.img`
 
 export const Title = styled.div`
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     line-height: 10vh;
     vertical-align: middle;
 
     @media screen and (max-width: 767px) {
         font-weight: bold;
         font-size: 24px;
+        line-height: 1.5em;
     }
 `;
 

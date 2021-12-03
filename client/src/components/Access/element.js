@@ -13,14 +13,26 @@ export const Container = styled.div`
     display: flex;
     align-items: stretch;
     justify-content: stretch;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
 `;
 
 export const ContentLeft = styled.div`
     width: 38.2%;
+
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
 `;
 
 export const ContentRight = styled.div`
     width: 61.8%;
+
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
 `;
 
 export const Image = styled.img`
@@ -47,6 +59,10 @@ export const Content = styled.div`
 export const Paragraph = styled.p`
     font-size: 24px;
     margin-top: 5vh;
+
+    @media screen and (max-width: 767px) {
+        margin-top: 1em;
+    }
 `;
 
 export const Map = styled.div`
