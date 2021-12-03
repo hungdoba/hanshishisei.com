@@ -47,3 +47,7 @@ export const Content = styled.div`
 export const Paragraph = styled.p`
     font-size: 24px;
 `;
+
+export const Ul = styled.ul``;
+
+export const Li = styled.li``;

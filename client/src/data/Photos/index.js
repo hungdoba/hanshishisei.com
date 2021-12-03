@@ -38,7 +38,7 @@ import photo37 from "../../components/Images/photo37.jfif";
 import photo38 from "../../components/Images/photo38.jfif";
 import photo39 from "../../components/Images/photo39.jfif";
 import photo40 from "../../components/Images/photo40.jfif";
-import photo41 from "../../components/Images/photo41.jfif";
+import photo41 from "../../components/Images/photo20.jfif";
 import photo42 from "../../components/Images/photo42.jfif";
 import photo43 from "../../components/Images/photo43.jfif";
 import photo44 from "../../components/Images/photo44.jfif";
@@ -58,13 +58,13 @@ import photo57 from "../../components/Images/photo57.jfif";
 import photo58 from "../../components/Images/photo58.jfif";
 import photo59 from "../../components/Images/photo59.jfif";
 import photo60 from "../../components/Images/photo60.jfif";
-import photo61 from "../../components/Images/photo61.jfif";
-import photo62 from "../../components/Images/photo62.jfif";
-import photo63 from "../../components/Images/photo63.jfif";
-import photo64 from "../../components/Images/photo64.jfif";
-import photo65 from "../../components/Images/photo65.jfif";
-import photo66 from "../../components/Images/photo66.jfif";
-import photo67 from "../../components/Images/photo67.jfif";
+import photo61 from "../../components/Images/photo17.jpg";
+import photo62 from "../../components/Images/photo18.jpg";
+import photo63 from "../../components/Images/photo19.jpg";
+import photo64 from "../../components/Images/photo20.jpg";
+import photo65 from "../../components/Images/photo21.jpg";
+import photo66 from "../../components/Images/photo22.jpg";
+import photo67 from "../../components/Images/photo23.jpg";
 
 export const Photos = [
     { image: `${photo01}`, alt: "1", key: 1 },

@@ -93,8 +93,21 @@ export const Menu = styled.div`
 
 export const MenuLink = styled(Link)`
     text-decoration: none;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+
+    &:hover {
+        cursor: pointer;
+        color: orange;
+    }
+
+    @media screen and (max-width: 767px) {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+`;
+
+export const MenuLinks = styled(Link)`
+    text-decoration: none;
+
     &:hover {
         cursor: pointer;
         color: orange;
@@ -115,11 +128,19 @@ export const Title = styled.div`
     font-size: 42px;
     font-weight: bold;
     margin: 10px;
+
+    @media screen and (max-width: 767px) {
+        font-size: 36px;
+    }
 `;
 
 export const Text = styled.div`
     font-size: 24px;
     margin: 10px;
+
+    @media screen and (max-width: 767px) {
+        font-size: 16px;
+    }
 `;
 
 export const BottomNavbar = styled.div`
@@ -133,6 +154,11 @@ export const BottomNavbar = styled.div`
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
+
+    @media screen and (max-width: 676px) {
+        width: 90%;
+        margin-top: 90%;
+    }
 `;
 
 export const BottomMenu = styled.div`
@@ -145,4 +171,16 @@ export const BottomMenu = styled.div`
     background-color: ${({ backgroundColor }) =>
         backgroundColor ? backgroundColor : "white"};
     color: ${({ color }) => color || "blue"};
+
+    @media screen and (max-width: 676px) {
+        font-size: 12px;
+    }
+`;
+
+export const ChildContent = styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
 `;
