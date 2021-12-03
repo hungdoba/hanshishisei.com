@@ -65,6 +65,12 @@ import photo64 from "../../components/Images/photo20.jpg";
 import photo65 from "../../components/Images/photo21.jpg";
 import photo66 from "../../components/Images/photo22.jpg";
 import photo67 from "../../components/Images/photo23.jpg";
+import photo68 from "../../components/Images/photo24.jpg";
+import photo69 from "../../components/Images/photo25.jpg";
+import photo70 from "../../components/Images/photo26.jpg";
+import photo71 from "../../components/Images/photo27.jpg";
+import photo72 from "../../components/Images/photo28.jpg";
+import photo73 from "../../components/Images/photo29.jpg";
 
 export const Photos = [
     { image: `${photo01}`, alt: "1", key: 1 },
@@ -76,6 +82,7 @@ export const Photos = [
     { image: `${photo07}`, alt: "7", key: 7 },
     { image: `${photo08}`, alt: "8", key: 8 },
     { image: `${photo09}`, alt: "9", key: 9 },
+    { image: `${photo44}`, alt: "44", key: 44 },
     { image: `${photo10}`, alt: "10", key: 10 },
     { image: `${photo11}`, alt: "11", key: 11 },
     { image: `${photo12}`, alt: "12", key: 12 },
@@ -110,7 +117,6 @@ export const Photos = [
     { image: `${photo41}`, alt: "41", key: 41 },
     { image: `${photo42}`, alt: "42", key: 42 },
     { image: `${photo43}`, alt: "43", key: 43 },
-    { image: `${photo44}`, alt: "44", key: 44 },
     { image: `${photo45}`, alt: "45", key: 45 },
     { image: `${photo46}`, alt: "46", key: 46 },
     { image: `${photo47}`, alt: "47", key: 47 },
@@ -122,7 +128,6 @@ export const Photos = [
     { image: `${photo53}`, alt: "53", key: 53 },
     { image: `${photo54}`, alt: "54", key: 54 },
     { image: `${photo55}`, alt: "55", key: 55 },
-    { image: `${photo56}`, alt: "56", key: 56 },
     { image: `${photo57}`, alt: "57", key: 57 },
     { image: `${photo58}`, alt: "58", key: 58 },
     { image: `${photo59}`, alt: "59", key: 59 },
@@ -134,4 +139,11 @@ export const Photos = [
     { image: `${photo65}`, alt: "65", key: 65 },
     { image: `${photo66}`, alt: "66", key: 66 },
     { image: `${photo67}`, alt: "67", key: 67 },
+    { image: `${photo68}`, alt: "68", key: 68 },
+    { image: `${photo69}`, alt: "69", key: 69 },
+    { image: `${photo70}`, alt: "70", key: 70 },
+    { image: `${photo71}`, alt: "71", key: 71 },
+    { image: `${photo72}`, alt: "72", key: 72 },
+    { image: `${photo73}`, alt: "73", key: 73 },
+    { image: `${photo56}`, alt: "56", key: 56 },
 ];
